@@ -34,6 +34,9 @@
                                     <color key="titleColor" systemColor="systemRedColor"/>
                                     <color key="titleShadowColor" systemColor="systemGrayColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="makeButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tgw-oQ-ycF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,6 +48,10 @@
                             <constraint firstItem="YQv-Id-3IW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zv4-Xm-XYJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloLabel" destination="qnT-AU-nbR" id="2Vp-Jz-PBg"/>
+                        <outlet property="toggleButton" destination="YQv-Id-3IW" id="rp6-6R-jw3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
